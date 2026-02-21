@@ -1,0 +1,34 @@
+name: 'Ollama Code Review'
+description: 'Automated code review powered by Ollama Kimi 2.5 with auto-fix capabilities'
+author: 'VarXiuS Platform'
+
+branding:
+  icon: 'check-circle'
+  color: 'blue'
+
+inputs:
+  github-token:
+    description: 'GitHub token for API access'
+    required: true
+  ollama-api-url:
+    description: 'Ollama API base URL (OpenAI-compatible endpoint)'
+    required: true
+  ollama-api-key:
+    description: 'Ollama API authentication key'
+    required: true
+  config-path:
+    description: 'Path to code review configuration file'
+    required: false
+    default: '.github/code-review-config.yml'
+
+outputs:
+  review-status:
+    description: 'Review result status (success, warning, failure)'
+  issues-found:
+    description: 'Total number of issues found'
+  fixes-applied:
+    description: 'Number of auto-fixes applied'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
