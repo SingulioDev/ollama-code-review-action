@@ -228,7 +228,7 @@ uses: SingulioDev/ollama-code-review-action@main
 
 **Build failures:**
 - Check `.github/workflows/build.yml` in action repository
-- Verify Bun 1.3.8 is installed correctly
+- Verify Bun 1.3.10 is installed correctly
 
 ---
 

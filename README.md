@@ -56,7 +56,7 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.3.8
+          bun-version: 1.3.10
 
       - name: Setup Ollama
         uses: ai-action/setup-ollama@v2.0.14
@@ -170,7 +170,7 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.3.8
+          bun-version: 1.3.10
 
       - name: Run code review
         uses: SingulioDev/ollama-code-review-action@v1
@@ -284,7 +284,7 @@ Annotations on files with:
 
 ### Prerequisites
 
-- Bun 1.3.8+
+- Bun 1.3.10+
 - Node.js 20+
 
 ### Setup
