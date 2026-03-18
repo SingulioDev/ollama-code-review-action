@@ -19,3 +19,7 @@ bun.lockb
 
 # Test coverage
 coverage/
+
+# Ignore Python virtual environments
+venv/
+.venv/
