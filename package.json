@@ -16,7 +16,7 @@
     "simple-git": "^3.22.0",
     "@typescript-eslint/parser": "^6.21.0",
     "js-yaml": "^4.1.0",
-    "uuid": "^9.0.1"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
